@@ -1,0 +1,59 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <LangVersion>preview</LangVersion>
+    <Version>0.0.1-a1</Version>
+    <PackageTags>SoE, Secret of Evermore, SNES, ROM, Rosetta Stone, Rosetta-Stone, Format, Super Nintendo, Super Famicon</PackageTags>
+    <Authors>S. Krauter { CleanCoderX, XETH }</Authors>
+    <Description>Collection of SoE's ROM models, load functionality</Description>    
+    <Company>KST</Company>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+      <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <RepositoryUrl>https://github.com/CleanCodeX/ROM.SoE</RepositoryUrl>
+    <PackageProjectUrl>http://evermore.xeth.de</PackageProjectUrl>
+    <PackageId>CCX.ROM.SoE</PackageId>
+    <PackageIcon>Icon.png</PackageIcon>
+    <Product>ROM.SoE »Rosetta Stone«</Product>
+    <Platforms>AnyCPU</Platforms>
+    <RepositoryType>Rosetta Stone</RepositoryType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CCX.IO" Version="1.0.0-a1" />
+    <PackageReference Include="CCX.ROM" Version="1.0.0-a1" />
+    <PackageReference Include="CCX.SoE" Version="0.5.0-a1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ROM\ROM.csproj" />
+    <ProjectReference Include="..\SoE\SoE.csproj" />
+    <ProjectReference Include="..\IO\IO.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <DebugType>full</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DebugType>embedded</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Icon.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
