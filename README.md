@@ -2,4 +2,5 @@
 
 * ### [ROM Map](Markdown/ROM.md)
 * ### [Known Offsets](Markdown/Offsets.md)
+* ### [Scripting](Markdown/Scripting.md)
 * ### [Unknowns](Markdown/Unknowns.md)

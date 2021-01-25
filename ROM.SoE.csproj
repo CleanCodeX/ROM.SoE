@@ -46,6 +46,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Folder Include="Markdown\Scripting\Global\" />
     <Folder Include="Properties\" />
   </ItemGroup>
 
