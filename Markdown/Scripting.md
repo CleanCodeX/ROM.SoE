@@ -22,9 +22,11 @@
 
 ##### Crustacia
 ##### Desert of Doom
+### Nobilia
 #### [Market](Scripting/NobiliaMarket.md)
 ##### Colloseum
 ##### Palace
+### West of Crustacia
 ##### Westbank / Horace's Camp
 ##### Collosia temple
 ##### Pyramid
