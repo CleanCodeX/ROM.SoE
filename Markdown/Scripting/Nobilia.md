@@ -1,4 +1,4 @@
 ﻿# NobiliaMarket
 
-## [Merchants](Merchants/Nobilia.md)
+## [Merchants](Merchants/NobiliaMarket.md)
 
