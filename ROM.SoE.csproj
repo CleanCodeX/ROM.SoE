@@ -22,9 +22,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="CCX.IO" Version="1.0.0-a1" />
+    <PackageReference Include="CCX.IO" Version="1.0.0-a4" />
     <PackageReference Include="CCX.ROM" Version="1.0.0-a1" />
-    <PackageReference Include="CCX.SoE" Version="0.5.0-a1" />
+    <PackageReference Include="CCX.SoE" Version="0.5.0-a2" />
   </ItemGroup>
 
   <ItemGroup>

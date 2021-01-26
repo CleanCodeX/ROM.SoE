@@ -1,5 +1,5 @@
 ﻿# ROM - Map
 
-Size: 1024 ^ 3 bytes (3 MiB)
+Size: 3 Mega bytes (3 MiB)
 
-Tbd.
+There is nothing here unless somebody adds something…

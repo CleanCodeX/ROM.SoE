@@ -1,3 +1,3 @@
 ﻿# There are unknown ROM offsets for:
 
-Tbd.
+There is nothing here unless somebody adds something…
