@@ -25,7 +25,7 @@
 ### Nobilia
 #### * [Market](Scripting/NobiliaMarket.md)
 ##### * Colloseum
-##### Palace
+##### * Palace
 ### West of Crustacia
 ##### * Westbank / Horace's Camp
 ##### * Collosia temple
