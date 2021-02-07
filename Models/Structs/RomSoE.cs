@@ -9,6 +9,6 @@ namespace ROM.SoE.Models.Structs
 		[MarshalAs(UnmanagedType.ByValArray, SizeConst = RomSizes.All)]
 		public byte[] Unknown1; // Offset [0] (1024 ^3 Bytes)
 
-		public override string ToString() => this.FormatAsString();
+		public override string ToString() => this.Format();
 	}
 }

@@ -4,7 +4,7 @@
     <TargetFramework>net5.0</TargetFramework>
     <Nullable>enable</Nullable>
     <LangVersion>preview</LangVersion>
-    <Version>0.0.1-a1</Version>
+    <Version>0.0.1-a2</Version>
     <PackageTags>SoE, Secret of Evermore, SNES, ROM, Rosetta Stone, Rosetta-Stone, Format, Super Nintendo, Super Famicon</PackageTags>
     <Authors>S. Krauter { CleanCoderX, XETH }</Authors>
     <Description>Collection of SoE's ROM models, load functionality</Description>    
@@ -22,8 +22,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="CCX.IO" Version="1.0.0-a4" />
-    <PackageReference Include="CCX.ROM" Version="1.0.0-a1" />
+    <PackageReference Include="CCX.ROM" Version="1.0.0-a4" />
     <PackageReference Include="CCX.SoE" Version="0.5.0-a2" />
   </ItemGroup>
 
