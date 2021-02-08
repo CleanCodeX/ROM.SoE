@@ -4,7 +4,7 @@
     <TargetFramework>net5.0</TargetFramework>
     <Nullable>enable</Nullable>
     <LangVersion>preview</LangVersion>
-    <Version>0.0.1-a2</Version>
+    <Version>0.0.1-a3</Version>
     <PackageTags>SoE, Secret of Evermore, SNES, ROM, Rosetta Stone, Rosetta-Stone, Format, Super Nintendo, Super Famicon</PackageTags>
     <Authors>S. Krauter { CleanCoderX, XETH }</Authors>
     <Description>Collection of SoE's ROM models, load functionality</Description>    

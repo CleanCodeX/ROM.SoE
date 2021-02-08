@@ -47,7 +47,7 @@ namespace ROM.SoE.Models
 
 			StructSizeValidator.Validate();
 
-			Requires.Equal(Marshal.SizeOf<RomSoE>(), RomSizes.All, nameof(Size));
+			Requires.Equal(Marshal.SizeOf<RomSoE>(), RomSizes.Size, nameof(Size));
 		}
 
 		/// <summary>
